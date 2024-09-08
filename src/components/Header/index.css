@@ -1,0 +1,79 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: fixed;
+    width: 93%;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-container{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 900px) {
+    .nav-container{
+       width: 90%;
+    }
+}
+
+.navLink{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navBgDark{
+    background-color: #343f59;
+}
+
+.navBgLight{
+    background-color: #f2ecd5;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.navImage{
+    width: 50px;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navImage{
+        width: 40px;
+    }.navHeading{
+        font-size: 14px;
+    }
+}
+
+
+.navHeading{
+    padding-left: 10px;
+}
+
+.navTextDark{
+    color: skyblue;
+}
+
+.navTextLight{
+    color: orange;
+}
+
+
+.sunIcon{
+    color: orange;
+}
+
+.moonIcon{
+    color: skyblue;
+}

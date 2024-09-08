@@ -1,0 +1,248 @@
+.citiesContainer{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .citiesContainer{
+        padding-top: 100px;
+    }
+}
+
+
+.homeBgDark{
+    background-image: url("https://res.cloudinary.com/dq1ktqbtb/image/upload/v1725780104/moon_image_hyj1ls.jpg");
+    background-size: cover;
+}
+
+.homeBgLight{
+    
+    background-image: url("https://res.cloudinary.com/dq1ktqbtb/image/upload/v1725797274/dayImage_iwqyus.webp");
+    background-size: cover;
+}
+
+.textDark{
+    color: #fff;
+}
+
+.textLight{
+    color: #000;
+}
+
+.citiesBg-container{
+    border: 2px solid rgb(255 255 255);
+    width: 80%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .citiesBg-container{
+        width: 90%;
+    }
+}
+
+.table-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dataName{
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 600px){
+    .dataName{
+        font-size: 16px;
+    }
+}
+
+
+
+.tableData{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.tableData:hover{
+    background-color: rgb(158, 188, 240);
+}
+
+.data{
+    width: 270px;
+    height: 30px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px){
+    .data{
+        font-size: 12px;
+        width: 90px;
+    }
+}
+
+.loading{
+    color: #fff;
+}
+
+.searchBgDark{
+    background-color: #f0f0f0;
+}
+
+.searchBgLight{
+    background-color: #2F2F43;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .search-container{
+        width: 85%;
+        height: 25px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:900px){
+    .search-container{
+        width: 60%;
+    }
+}
+
+.searchIcon{
+    color: #94A3B8;
+}
+
+.input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #94A3B8;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.dataLink{
+    text-decoration: none;
+}
+
+.loader-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.no-products-view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 50vh;
+}
+
+
+.no-products-img{
+    width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    .no-products-img{
+        width: 60%;
+    }
+}
+
+.no-products-heading{
+    font-size: 25px;
+    font-family: "Roboto";
+}
+
+.no-products-description{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+
+.no-jobs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-jobs-container{
+    padding: 30px;
+}
+
+.failureButton{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(86, 132, 239);
+    color: #fff;
+    font-size: 14px;
+    font-family: "Roboto";
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.no-jobs-image{
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .no-jobs-image{
+        width: 50%;
+    }
+}
+
+.failureHeading{
+    font-size: 25px;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width: 768px){
+    .failureHeading{
+        font-size: 20px;
+    }
+}
+
+.failureDescription{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width: 768px){
+    .failureDescription{
+        font-size: 13px;
+    }
+}
